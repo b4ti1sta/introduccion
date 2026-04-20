@@ -1,0 +1,9 @@
+Proceso distanciaPuntos
+    Definir x1, y1, x2, y2, d Como Real
+    Escribir "Punto 1:"
+    Leer x1, y1
+    Escribir "Punto 2:"
+    Leer x2, y2
+    d = RAIZ((x2 - x1)^2 + (y2 - y1)^2)
+    Escribir "Distancia:", d
+FinProceso
