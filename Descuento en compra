@@ -1,0 +1,8 @@
+Proceso descuentoCompra
+    Definir compra, desc, pagar Como Real
+    Escribir "Total compra:"
+    Leer compra
+    desc = compra * 0.15
+    pagar = compra - desc
+    Escribir "Debe pagar:", pagar
+FinProceso
