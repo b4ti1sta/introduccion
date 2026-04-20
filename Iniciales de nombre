@@ -1,0 +1,6 @@
+Proceso iniciales
+    Definir nom, ap1, ap2 Como Cadena
+    Escribir "Nombre y apellidos:"
+    Leer nom, ap1, ap2
+    Escribir Subcadena(nom,0,0), Subcadena(ap1,0,0), Subcadena(ap2,0,0)
+FinProceso
