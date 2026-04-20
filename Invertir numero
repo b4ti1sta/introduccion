@@ -1,0 +1,9 @@
+Proceso invertirNumero
+    Definir num, d, u, inv Como Entero
+    Escribir "Digite numero de dos cifras:"
+    Leer num
+    d = num / 10
+    u = num MOD 10
+    inv = u*10 + d
+    Escribir "Invertido:", inv
+FinProceso
