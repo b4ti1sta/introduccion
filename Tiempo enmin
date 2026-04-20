@@ -1,0 +1,8 @@
+Proceso tiempoMinutos
+    Definir min, h, m Como Entero
+    Escribir "Digite minutos:"
+    Leer min
+    h = min / 60
+    m = min MOD 60
+    Escribir h, " horas y ", m, " minutos"
+FinProceso
