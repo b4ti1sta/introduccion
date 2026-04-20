@@ -1,0 +1,12 @@
+Proceso sueldoVentas
+    Definir sueldo, v1, v2, v3, totalv, com, total Como Real
+    Escribir "Sueldo base:"
+    Leer sueldo
+    Escribir "Ventas 1, 2 y 3:"
+    Leer v1, v2, v3
+    totalv = v1 + v2 + v3
+    com = totalv * 0.10
+    total = sueldo + com
+    Escribir "Comision:", com
+    Escribir "Total a recibir:", total
+FinProceso
