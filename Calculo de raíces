@@ -1,0 +1,9 @@
+Proceso calcularRaices
+    Definir n, rc, rcb Como Real
+    Escribir "Digite numero:"
+    Leer n
+    rc = RAIZ(n)
+    rcb = n^(1/3)
+    Escribir "Raiz cuadrada:", rc
+    Escribir "Raiz cubica:", rcb
+FinProceso
