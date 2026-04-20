@@ -1,0 +1,10 @@
+Proceso cambiarValores
+    Definir A, B, aux Como Real
+    Escribir "Digite A y B:"
+    Leer A, B
+    aux = A
+    A = B
+    B = aux
+    Escribir "Nuevo A:", A
+    Escribir "Nuevo B:", B
+FinProceso
