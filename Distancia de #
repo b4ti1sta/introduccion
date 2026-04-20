@@ -1,0 +1,7 @@
+Proceso distanciaNumeros
+    Definir a, b, d Como Real
+    Escribir "Digite dos numeros:"
+    Leer a, b
+    d = ABS(a - b)
+    Escribir "Distancia:", d
+FinProceso
