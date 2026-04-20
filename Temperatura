@@ -1,0 +1,7 @@
+Proceso convertirTemperatura
+    Definir f, c Como Real
+    Escribir "Digite grados Fahrenheit:"
+    Leer f
+    c = (f - 32) * 5 / 9
+    Escribir "En Celsius es:", c
+FinProceso
