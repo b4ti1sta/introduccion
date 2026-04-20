@@ -1,0 +1,15 @@
+Proceso dineroMonedas
+    Definir m2, m1, m50, m20, m10, total Como Real
+    Escribir "Monedas de 2€:"
+    Leer m2
+    Escribir "Monedas de 1€:"
+    Leer m1
+    Escribir "Monedas de 50c:"
+    Leer m50
+    Escribir "Monedas de 20c:"
+    Leer m20
+    Escribir "Monedas de 10c:"
+    Leer m10
+    total = m2*2 + m1 + m50*0.5 + m20*0.2 + m10*0.1
+    Escribir "Total:", total
+FinProceso
