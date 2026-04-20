@@ -1,0 +1,12 @@
+Proceso notaFinal
+    Definir n1, n2, n3, ex, trab, prom, final Como Real
+    Escribir "Notas parciales:"
+    Leer n1, n2, n3
+    Escribir "Examen:"
+    Leer ex
+    Escribir "Trabajo:"
+    Leer trab
+    prom = (n1 + n2 + n3) / 3
+    final = prom*0.55 + ex*0.30 + trab*0.15
+    Escribir "Nota final:", final
+FinProceso
